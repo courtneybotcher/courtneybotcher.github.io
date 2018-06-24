@@ -1,3 +1,38 @@
-p {
-  color: red;
+
+body {
+  padding-top: 50px;
+  text-align: center;
+  padding-bottom: 100px;
+/*  margin: auto;*/
 }
+
+.jumbotron {
+  text-align: center;
+}
+
+.jumbotron, p {
+  line-height: 50%;
+}
+
+#experience {
+  border: solid black 1px;
+  border-radius: 25px;
+  border
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+.thumbnail {
+  max-width: 200px;
+  float: left;
+
+}
+
