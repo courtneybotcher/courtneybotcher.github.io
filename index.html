@@ -2,65 +2,91 @@
 <html>
 <head>
   <title>My Resume</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
 </head>
+
 <body>
-  <img src="courtneybotcher.jpg">
-            
-  <h1>Courtney Botcher</h1>
-  <div id="info">
-    <h2>1950 Jade Lane</h2>
-    <h2>Eagan, MN  55122</h2>
-    <h2>(612)-275-6436</h2>
-    <h2>courtney.botcher@gmail.com</h2>
+
+<div class="container">
+
+<!-- Header -->
+
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <div class="thumbnail"><img src="courtneybotcher.jpg"></div>
+      <h1 class="display-3">Courtney Botcher</h1>
+      <p class="lead"><i class="fas fa-home"></i>
+1950 Jade Lane</p>
+      <p class="lead">Eagan, MN  55122</p>
+      <p class="lead"><i class="fas fa-mobile-alt"></i>
+(612)-275-6436</p>
+      <p class="lead"><i class="far fa-envelope"></i>
+courtney.botcher@gmail.com</p>
+    </div>
   </div>
 
-  <div id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>Over 9 years of customer service experience in the foodservice industry</li>
-      <li>Proficient in self-management, multitasking, and attending to detail in a fast-paced work environment</li>
-      <li>Able to quickly learn and execute new programs and systems</li>
-      <li>Typing speed of 60 wpm</li>
-    </ul>
+<!-- Skills -->
+  <div class="container">
+      <h2><i class="fas fa-pen"></i>
+Skills</h2>
+      <ul>
+        <li>- Over 9 years of customer service experience in the foodservice industry</li>
+        <li>- Proficient in self-management, multitasking, and attending to detail in a fast-paced work environment</li>
+        <li>- Able to quickly learn and execute new programs and systems</li>
+        <li>- Typing speed of 60 wpm</li>
+      </ul>
   </div>
 
-  <div>
-    <h2>Experience</h2>
-      <div class="job-summary">
-        <h3>Butcher & the Boar, Minneapolis, MN — Server</h3>
-        <h4>MARCH 2013 - APRIL 2015</h4>
-        <ul>
-          <li>Provided service that exceeded guest expectations in a high-volume and award-winning restaurant </li>
-          <li>Handled cash and managed guest payments on POS Terminal</li>
-          <li>Organized and executed private dining events for up to 50 guests</li>
-        </ul>
+  <div class="container" id="experience">  
+    <h2><i class="fas fa-briefcase"></i> Experience</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <h3>Butcher & the Boar - Server</h3>
+          <p>Minneapolis, MN</p>
+          <h4>MARCH 2013 - APRIL 2015</h4>
+          <ul>
+            <li>- Provided service that exceeded guest expectations in a high-volume and award-winning restaurant </li>
+            <li>- Handled cash and managed guest payments on POS Terminal</li>
+            <li>- Organized and executed private dining events for up to 50 guests</li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <h3>Campiello - Server and Supervisor</h3>
+          <p>Eden Prairie, MN</p>
+          <h4>MARCH 2012 - MARCH 2013</h4>
+          <ul>
+            <li>- Provided service for an extensive and seasonally changing Italian food and wine menu</li>
+            <li>- Answered multi-line phone and took reservations with Open Table software</li>
+            <li>- Opened and closed the restaurant, settled all credit cards, performed server checkouts, counted tills, sent money orders, and performed final walkthrough of the establishment</li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <h3>Twin City Grill - Server</h3>
+          <p>Bloomington, MN</p>
+          <h4>AUGUST 2006 - MARCH 2012</h4>
+          <ul>
+            <li>- Provided service according to the restaurant's preferred style</li>
+            <li>- Memorized ingredients in each dish and adhered to strict allergy procedure to ensure the guest's safety
+            <li>- Attended frequent wine, port, and scotch classes to increase knowledge and improve salesmanship of high-end beverages</li>
+          </ul>
+        </div>
       </div>
+    </div>
+  </div>         
 
-      <div class="job-summary">
-        <h3>Campiello, Eden Prairie, MN — Server and Supervisor</h3>
-        <h4>MARCH 2012 - MARCH 2013</h4>
-        <ul>
-          <li>Provided service for an extensive and seasonally changing Italian food and wine menu</li>
-          <li>Answered multi-line phone and took reservations with Open Table software</li>
-          <li>Opened and closed the restaurant, settled all credit cards, performed server checkouts, counted tills, sent money orders, and performed final walkthrough of the establishment</li>
-        </ul>
-      </div>
-
-      <div class="job-summary">
-        <h3>Twin City Grill, Bloomington, MN — Server</h3>
-        <h4>AUGUST 2006 - MARCH 2012</h4>
-        <ul>
-          <li>Provided service in accordance with the restaurant’s preferred style</li>
-          <li>Attended frequent wine, port, and scotch classes to increase knowledge and improve salesmanship of high-end beverages</li>
-        </ul>
-      </div>
+  <div class="container">
+    <h2><i class="fas fa-graduation-cap"></i>
+Education</h2>
+    <p>B.A. English, University of Minnesota, Twin Cities</p> 
+    <p>SEPTEMBER 2003 - MAY 2007</p>
   </div>
 
-  <div id="education">
-    <h2>Education</h2>
-    <p>University of Minnesota, Twin Cities, MN — B.A. English</p>
-    <p>SEPTEMBER 2003 - MAY 2007, Minneapolis, MN</p>
-  </div>
+</div>
+</body>
 
 
 </body>
