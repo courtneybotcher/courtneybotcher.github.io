@@ -9,9 +9,6 @@ body {
   text-align: center;
 }
 
-.jumbotron, p {
-  line-height: 50%;
-}
 
 #experience {
   border: solid black 1px;
